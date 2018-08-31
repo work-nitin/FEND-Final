@@ -3,6 +3,7 @@ section,
 div {
 	box-sizing: border-box;
 }
+
 body {
 	font-size: 20px;
 	margin: 0;
@@ -10,21 +11,25 @@ body {
 	width: 100%;
 	height: 100%;
 }
+
 /* Styling for logo*/
 
 .logo img {
 	width: 80px;
 	height: 74px;
 }
+
 /* Styling for heading and flexcode*/
 
 .title {
 	margin-top: 0;
 	margin-bottom: 0;
 }
+
 .featured-work {
 	font-weight: lighter;
 }
+
 .header {
 	display: flex;
 	flex-wrap: nowrap;
@@ -32,6 +37,7 @@ body {
 	justify-content: space-between;
 	margin: 3px;
 }
+
 /* Styling for title and subtitle*/
 
 .title {
@@ -39,11 +45,13 @@ body {
 	text-align: end;
 	font-size: 36px;
 }
+
 .sub-title {
 	font-weight: lighter;
 	text-align: end;
 	font-size: 25px;
 }
+
 /* Adding a line before the content using CSS property hr*/
 
 hr {
@@ -53,11 +61,13 @@ hr {
 	border-top: 1.3px solid #7d97ad;
 	margin: 0 5px 0 5px;
 }
+
 /* For main area */
 
 main {
 	width: 100%;
 }
+
 /* Adding some margin before the content actually starts
 
 .content {
@@ -73,6 +83,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 /* All the projects will be under the projects para- Styling  */
 
 .projects_mainheading {
@@ -82,6 +93,7 @@ main {
 	top: 10px;
 	color: #a96;
 }
+
 /*For Future needs, styling all the projects separately so that if needed , we can stand out any particular project */
 
 /* Style First Image */
@@ -93,6 +105,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 /* Style Second Image */
 
 .second-image img {
@@ -103,6 +116,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 /* Style Third Image */
 
 .third-image img {
@@ -112,6 +126,7 @@ main {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 /* Style Various Project names */
 
 .project_name {
@@ -122,6 +137,7 @@ main {
 	position: relative;
 	top: -5px;
 }
+
 /* Style various Project URL's */
 
 .project_url {
@@ -131,10 +147,13 @@ main {
 	position: relative;
 	top: -15px;
 }
-a:link, a:visited {
+
+a:link,
+a:visited {
 	text-decoration: none;
 	color: black;
 }
+
 /* Responsive when the browser  is 'x' pixel or Less */
 
 /* Smartphones (portrait) ----------- */
@@ -160,6 +179,7 @@ a:link, a:visited {
 		font-size: 22px;
 	}
 }
+
 /* Responsive when the browser  is 'x' pixel or more */
 
 @media only screen and (min-width: 321px) {
@@ -206,6 +226,7 @@ a:link, a:visited {
 		top: 0px;
 	}
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
 	/* Styles */
 	body {
@@ -218,6 +239,7 @@ a:link, a:visited {
 		font-size: 0.66em;
 	}
 }
+
 /* Responsive when the browser  is 'x' pixel or more */
 
 @media only screen and (min-width: 1224px) {
