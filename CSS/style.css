@@ -154,6 +154,13 @@ a:visited {
 	color: black;
 }
 
+.footer_info
+{
+	font-size: 13px;
+	font-style: italic;
+
+}
+
 /* Responsive when the browser  is 'x' pixel or Less */
 
 /* Smartphones (portrait) ----------- */
